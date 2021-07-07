@@ -6,9 +6,6 @@ import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-
-
-
 public class Comics {
 	@JsonProperty("id")
 	private Long id_comics;

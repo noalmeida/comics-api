@@ -14,9 +14,9 @@ import com.challenge.crm.model.Usuario;
 @RequestMapping("/usuarios")
 public class UsuarioController {
 
-//	@GetMapping
-//	public List<Usuario> listar() {
-//		return "Ola usuario";
-//		  
-//	}
+	@GetMapping
+	public List<Usuario> listar(List<Usuario> Usuario) {
+		return Usuario;
+		  
+	}
 }
